@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.apache.maven.project.MavenProject;
 
-import ro.kuberam.maven.plugins.utils.KuberamAbstractMojoTestBase;
+import ro.kuberam.maven.plugins.mojos.KuberamAbstractMojoTestBase;
 
 public class ProcessXincludeMojoTest extends KuberamAbstractMojoTestBase {
 
