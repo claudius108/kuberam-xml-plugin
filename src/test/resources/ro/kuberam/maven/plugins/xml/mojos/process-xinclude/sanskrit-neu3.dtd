@@ -1,0 +1,31 @@
+<!ELEMENT b (#PCDATA | u | label | pb | sup | q1 |ref | q2)*>
+<!ELEMENT u (#PCDATA | sup | q1 |ref | q2)*>
+<!ELEMENT sup (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+	
+<!ELEMENT q2 (#PCDATA | ref | q1 | b | u | sup |note | pb | fw | lg )*>
+<!ELEMENT fw (#PCDATA)>
+<!ELEMENT q1 (#PCDATA | ref | note | pb | b| u | sup | fw | lg)*>
+<!ELEMENT div (#PCDATA | p | lg | note | pb | fw | q2 | label)*>
+<!ATTLIST div type CDATA #IMPLIED>
+<!ELEMENT l (#PCDATA | ref | b | u | sup | q1 | q2 | label)* >
+<!ELEMENT section (#PCDATA | head | pb |lg| fw | div | section)*>
+<!ATTLIST section id CDATA #IMPLIED>
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref n CDATA #IMPLIED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT pb (#PCDATA)>
+<!ATTLIST pb n CDATA #IMPLIED>
+<!ELEMENT lg (l | pb | fw| note)*>
+<!ATTLIST lg n CDATA #IMPLIED>
+<!ATTLIST lg type CDATA #IMPLIED>
+<!ELEMENT p (#PCDATA | q1 | ref | q2 | b | u | sup | note | pb | fw | label)*>
+<!ATTLIST p rend CDATA #IMPLIED >
+<!ELEMENT report (#PCDATA | title | subtitle | section)*>
+<!ATTLIST report id CDATA #IMPLIED>
+<!ATTLIST report pubid CDATA #IMPLIED>
+<!ATTLIST report publish CDATA #IMPLIED>
+<!ELEMENT subtitle (#PCDATA)>
+<!ELEMENT head (#PCDATA|q1)*>
+<!ELEMENT note (#PCDATA | p)*>
+<!ATTLIST note target CDATA #IMPLIED>
