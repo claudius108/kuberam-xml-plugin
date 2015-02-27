@@ -39,9 +39,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:ssh@github.com:claudius108/kuberam.git</connection>
-		<developerConnection>scm:git:ssh@github.com:claudius108/kuberam.git</developerConnection>
-		<url>https://github.com/claudius108/kuberam/tree/master/kuberam-maven-plugins/kuberam-xml-plugin</url>
+		<connection>scm:git:ssh@github.com:claudius108/kuberam-xml-plugin.git</connection>
+		<developerConnection>scm:git:ssh@github.com:claudius108/kuberam-xml-plugin.git</developerConnection>
+		<url>https://github.com/claudius108/kuberam-xml-plugin.git</url>
 	</scm>
 
 	<prerequisites>
